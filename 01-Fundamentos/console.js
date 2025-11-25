@@ -1,0 +1,11 @@
+console.log('Hola Fer!');
+console.error('Esto es un error');
+console.warn('Esto es una advertencia');
+console.info('Esto es info');
+console.table(['Manzana', 'Frutillas', 'Peras']);
+console.assert(1>2);
+console.count();
+console.countReset();
+console.time();
+console.timeLog();
+console.timeEnd();
