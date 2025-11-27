@@ -8,8 +8,24 @@
 const edad = 18;
 const acceso = true;
 
-const comprobacion = edad >= 18
+
+// AND &&
+const comprobacion = edad >= 18 && acceso
                                 ? 'Puede accesder' 
                                 : 'No puede acceder';
 
-console.log(comprobacion);
+//OR ||
+const comprobacion2 = edad >= 18 || acceso
+                                ? 'Puede accesder' 
+                                : 'No puede acceder';
+
+//NOT !
+const variable = true
+// console.log(!variable);
+
+//NULLISH ??
+const comprobacion3 = 0 ?? 10;
+
+
+console.log (comprobacion3);
+
