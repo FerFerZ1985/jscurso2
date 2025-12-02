@@ -11,4 +11,15 @@ console.log(fruta.indexOf('Naranja'));
 
 console.log(fruta.lastIndexOf('Naranja'));
 
-// toString
+// toString() - transforma un arreglo a una cadena de texto
+console.log(fruta.toString());
+
+// .join() - transforma un arreglo a una cadena de texto y separa cada elemento
+console.log(fruta.join(' . '));
+
+// .sort() - Ordena un arreglo de cadena de texto en forma alfabetica
+console.log(fruta.sort());
+console.log(fruta); 
+
+// .reverse() - ordena de forma descendente
+console.log(fruta.reverse());
